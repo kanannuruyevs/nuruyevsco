@@ -1,0 +1,124 @@
+header {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+header nav {
+  margin-top: 10px;
+}
+header nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+header nav ul li {
+  margin-right: 20px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #007bff;
+}
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+main section {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+main section h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.5em;
+  color: #333;
+}
+main section p {
+  margin: 0;
+  font-size: 1em;
+  color: #666;
+  line-height: 1.6;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+footer .footer-logo {
+  display: block;
+  margin: 0 auto 20px;
+  width: 100px;
+}
+footer .footer-links {
+  list-style: none;
+  padding: 0;
+}
+footer .footer-links li {
+  display: inline;
+  margin: 0 10px;
+}
+footer .footer-social {
+  margin-top: 20px;
+}
+footer .footer-social a {
+  margin: 0 10px;
+  font-size: 20px;
+}
+
+.footer-contact {
+  margin-top: 20px;
+}
+.footer-contact p {
+  margin: 5px 0;
+}
+.footer-contact a {
+  color: #fff;
+  text-decoration: underline;
+}
+.footer-contact a:hover {
+  color: #ccc;
+}
+
+.footer-newsletter {
+  margin-top: 20px;
+  text-align: left;
+}
+.footer-newsletter input[type=email] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.footer-newsletter button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #555;
+  color: #fff;
+  cursor: pointer;
+}
+.footer-newsletter button:hover {
+  background-color: #777;
+}/*# sourceMappingURL=style.css.map */

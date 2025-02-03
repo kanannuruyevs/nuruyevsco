@@ -1,0 +1,36 @@
+// _header.scss
+
+header {
+    background-color: #f8f9fa; // Light grey background
+    padding: 20px; // Padding around the header
+    border-bottom: 1px solid #e0e0e0; // Light grey border at the bottom
+
+    .logo {
+        font-size: 24px; // Larger font size for the logo
+        font-weight: bold; // Bold font weight for the logo
+        color: #333; // Dark grey color for the logo
+    }
+
+    nav {
+        margin-top: 10px; // Space between the logo and the navigation
+
+        ul {
+            list-style: none; // Remove default list styling
+            padding: 0; // Remove default padding
+            display: flex; // Display list items in a row
+
+            li {
+                margin-right: 20px; // Space between each navigation item
+
+                a {
+                    text-decoration: none; // Remove underline from links
+                    color: #007bff; // Blue color for links
+
+                    &:hover {
+                        text-decoration: underline; // Underline links on hover
+                    }
+                }
+            }
+        }
+    }
+}
