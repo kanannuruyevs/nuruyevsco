@@ -1,6 +1,9 @@
 // _header.scss
 
 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #f8f9fa; // Light grey background
     padding: 20px; // Padding around the header
     border-bottom: 1px solid #e0e0e0; // Light grey border at the bottom
@@ -29,6 +32,30 @@ header {
                     &:hover {
                         text-decoration: underline; // Underline links on hover
                     }
+                }
+            }
+        }
+    }
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+
+    ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+
+        li {
+            margin-right: 20px;
+
+            a {
+                text-decoration: none;
+                color: #007bff;
+
+                &:hover {
+                    text-decoration: underline;
                 }
             }
         }
