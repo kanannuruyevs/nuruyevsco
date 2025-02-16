@@ -90,6 +90,7 @@ nav {
 }
 nav ul {
   display: flex;
+  gap: 20vh;
   list-style: none;
   padding: 0;
 }
@@ -98,7 +99,10 @@ nav ul li {
 }
 nav ul li a {
   text-decoration: none;
-  color: #007bff;
+  color: black;
+  font-size: 20px;
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 600;
 }
 nav ul li a:hover {
   text-decoration: underline;
